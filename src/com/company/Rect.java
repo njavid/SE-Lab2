@@ -1,6 +1,6 @@
 package com.company;
 
-public class Rect {
+public class Rect extends Shape{
 
     private int height;
     private  int width;
@@ -12,5 +12,12 @@ public class Rect {
 
     public int getArea(){
         return this.height*this.width;
+    }
+
+    public int getWidth(){
+        return this.width;
+    }
+    public int getHeight(){
+        return this.height;
     }
 }

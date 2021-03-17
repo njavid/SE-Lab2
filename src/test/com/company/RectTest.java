@@ -21,4 +21,16 @@ class RectTest {
         assertEquals(20,rect2.getArea());
 
     }
+    @Test
+    public void getWidth() {
+        assertEquals(3,rect1.getWidth());
+        assertEquals(2,rect2.getWidth());
+    }
+
+    @Test
+    public void getHeight()  {
+        assertEquals(2,rect1.getHeight());
+        assertEquals(10,rect2.getHeight());
+
+    }
 }
