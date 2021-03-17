@@ -15,9 +15,9 @@ public class Rect extends Shape{
     }
 
     public int getWidth(){
-        return 0;
+        return this.width;
     }
     public int getHeight(){
-        return 0;
+        return this.height;
     }
 }
