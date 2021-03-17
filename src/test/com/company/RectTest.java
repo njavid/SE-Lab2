@@ -33,4 +33,17 @@ class RectTest {
         assertEquals(10,rect2.getHeight());
 
     }
+
+    @Test
+    public void setWidth() {
+        rect1.setWidth(40);
+        assertEquals(40,rect1.getWidth());
+    }
+
+    @Test
+    public void setHeight() {
+        rect2.setHeight(50);
+        assertEquals(50,rect2.getHeight());
+    }
+
 }
