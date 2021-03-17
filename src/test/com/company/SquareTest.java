@@ -27,4 +27,16 @@ class SquareTest {
         assertEquals(2,square1.getSide());
 
     }
+
+    @Test
+    public void setSide() {
+        Square square = new Square(7);
+        square.setSide(20);
+        assertEquals(20,square.getSide());
+
+        Square square1 = new Square(2);
+        square1.setSide(9);
+        assertEquals(9,square1.getSide());
+
+    }
 }
