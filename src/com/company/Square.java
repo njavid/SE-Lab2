@@ -11,4 +11,8 @@ public class Square {
 
         return this.side * this.side;
     }
+
+    public int getSide(){
+        return this.side;
+    }
 }
