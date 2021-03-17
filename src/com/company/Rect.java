@@ -20,4 +20,10 @@ public class Rect extends Shape{
     public int getHeight(){
         return this.height;
     }
+
+    public void setWidth(int width){
+    }
+
+    public void setHeight(int height){
+    }
 }
